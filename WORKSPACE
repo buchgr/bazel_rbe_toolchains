@@ -4,7 +4,7 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 http_archive(
   name = "bazel_toolchains",
-  #sha256 = "67335b3563d9b67dc2550b8f27cc689b64fadac491e69ce78763d9ba894cc5cc",
+  sha256 = "cfd6663731b2c8986096eccda25cb81876bbf5715393ac31a13df2dafb2e46a0",
   strip_prefix = "bazel-toolchains-037cffaca540b978bd8824de12a88be158e69366",
   urls = [
     "https://github.com/bazelbuild/bazel-toolchains/archive/037cffaca540b978bd8824de12a88be158e69366.tar.gz",
