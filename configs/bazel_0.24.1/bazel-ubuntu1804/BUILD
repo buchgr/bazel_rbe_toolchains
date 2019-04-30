@@ -1,4 +1,5 @@
-package(default_visibility = ["//visibility:public"],
+package(default_visibility = ["//visibility:public"])
+
 # The default RBE platform where most actions run on. Have this until
 # https://github.com/bazelbuild/bazel-toolchains/issues/356 is fixed.
 platform(
