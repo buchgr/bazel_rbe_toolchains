@@ -14,9 +14,9 @@ http_archive(
 load("@bazel_toolchains//rules:rbe_repo.bzl", "rbe_autoconfig")
 
 rbe_autoconfig(
-  name = "bazel_ubuntu1804",
+  name = "bazel_rbe_ubuntu1804",
   registry = "gcr.io",
-  repository = "bazel-untrusted/debian-testing_bazel_rbe",
+  repository = "bazel-untrusted/bazel_rbe/ubuntu1804",
   digest = "sha256:6ef924b621084dbddf0a50c3a088018e62984380f42f9eed70395a8e0cccdb7c",
   config_dir = "bazel-ubuntu1804",
   output_base = "configs",
