@@ -4,7 +4,7 @@ package(default_visibility = ["//visibility:public"])
 # https://github.com/bazelbuild/bazel-toolchains/issues/356 is fixed.
 platform(
     name = "default_platform",
-    parents = ["//configs/bazel_0.25.1/bazel-ubuntu1804/config:platform"],
+    parents = ["//configs/bazel_0.25.0/bazel-ubuntu1804/config:platform"],
     remote_execution_properties = """
         {PARENT_REMOTE_EXECUTION_PROPERTIES}
         properties: {
