@@ -17,7 +17,7 @@ rbe_autoconfig(
   name = "bazel_rbe_ubuntu1804",
   registry = "gcr.io",
   repository = "bazel-untrusted/bazel_rbe/ubuntu1804",
-  digest = "sha256:6ef924b621084dbddf0a50c3a088018e62984380f42f9eed70395a8e0cccdb7c",
+  digest = "sha256:2ddf999232784b0248e14bb15d896eb4a056ae74f9b9ea80839e1c5500356074",
   config_dir = "bazel-ubuntu1804",
   output_base = "configs",
 )

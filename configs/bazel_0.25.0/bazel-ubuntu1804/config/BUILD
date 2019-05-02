@@ -43,7 +43,7 @@ platform(
     remote_execution_properties = """
         properties: {
           name: "container-image"
-          value:"docker://gcr.io/bazel-untrusted/bazel_rbe/ubuntu1804@sha256:6ef924b621084dbddf0a50c3a088018e62984380f42f9eed70395a8e0cccdb7c"
+          value:"docker://gcr.io/bazel-untrusted/bazel_rbe/ubuntu1804@sha256:2ddf999232784b0248e14bb15d896eb4a056ae74f9b9ea80839e1c5500356074"
         }
         """,
 )
